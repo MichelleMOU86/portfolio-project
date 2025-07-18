@@ -67,6 +67,7 @@ img {
 .about-me {
   color: #272142;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
