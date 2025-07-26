@@ -1,6 +1,7 @@
 h1,
 h2,
 h3,
+h4,
 p {
   font-family: "Nunito", sans-serif;
 }
@@ -15,11 +16,15 @@ h2 {
 }
 
 h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 35px;
+}
+h4 {
   font-size: 24px;
   font-weight: bold;
   line-height: 35px;
 }
-
 img {
   border-radius: 12px;
 }
@@ -53,7 +58,7 @@ img {
   color: #272142;
 }
 .headshot {
-  justify-content: right;
+  justify-content: left;
   max-height: 450px;
 }
 .favorite-mobs {
@@ -63,11 +68,25 @@ img {
 .about-image-caption {
   font-size: 24;
   font-weight: bold;
+  justify-content: left;
 }
 .content {
   color: #272142;
+  width: 760px;
+  margin: auto;
+}
+.about-content {
+  color: #272142;
+  width: 960px;
+  margin: auto;
 }
 
+.work-image {
+  width: 760px;
+  height: 450px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
