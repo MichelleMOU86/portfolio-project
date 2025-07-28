@@ -1,10 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-p {
-  font-family: "Nunito", sans-serif;
-}
 h1 {
   font-size: 72px;
   font-weight: bold;
@@ -30,9 +23,9 @@ img {
 }
 body {
   background: #ffffff;
-  position: relative;
   width: 1440px;
   height: 1703px;
+  font-family: "Nunito", sans-serif;
 }
 .hero {
   background-image: url("/images/hero-back.jpg");
@@ -41,7 +34,6 @@ body {
   text-align: center;
   color: white;
   padding: 100px 20px;
-  position: absolute;
 }
 
 .image-caption {
@@ -103,6 +95,34 @@ body {
   text-transform: uppercase;
   color: darkviolet;
   font-size: 18px;
+}
+.logo {
+  max-width: 150px;
+  border-radius: 0px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 22px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: darkviolet;
 }
 @media (max-width: 576px) {
   h1 {
