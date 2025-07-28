@@ -23,8 +23,7 @@ img {
 }
 body {
   background: #ffffff;
-  width: 1440px;
-  height: 1703px;
+
   font-family: "Nunito", sans-serif;
 }
 .hero {
@@ -134,5 +133,8 @@ nav li.active a {
   }
   h2 {
     font-size: 18px;
+  }
+  .logo {
+    display: none;
   }
 }
